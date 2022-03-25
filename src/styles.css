@@ -39,6 +39,9 @@ body {
 .btn:active {
   transform: scale(0.98);
 }
+.btn:disabled {
+  background: grey;
+}
 
 .btn-block {
   display: block;
@@ -74,4 +77,9 @@ body {
 .form-control-check input {
   flex: 2;
   height: 20px;
+}
+
+.error-msg {
+  color: red;
+  font-size: 0.8rem;
 }
